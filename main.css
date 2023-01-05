@@ -26,7 +26,7 @@ body {
 	padding-top: 30px;
 	height: 100px;
 	position: relative;
-	width: 30%; /* largeur de 80% de la page */
+	width: 768px; /*30% de 2560px*/
 	margin: 0 auto; /* centrage horizontal de l'élément */
 	background-color: rgba(0, 0, 0, 0.85);
 }
@@ -49,7 +49,7 @@ body {
 	align-items: center;
 	background-color: rgba(0, 0, 0, 0.85);
 	height: 100%;
-	width: 30%; /* largeur de 80% de la page */
+	768px; /*30% de 2560px*/
 	margin: 0 auto; /* centrage horizontal de l'élément */
 }
 
@@ -124,7 +124,7 @@ body {
 	padding-top: 30px;
 	height: 100px;
 	position: relative;
-	width: 40%; /* largeur de 80% de la page */
+	width: 1024px; /*40% de 2560px*/
 	margin: 0 auto; /* centrage horizontal de l'élément */
 	background-color: rgba(0, 0, 0, 0.85);
 }
@@ -147,7 +147,7 @@ body {
 	align-items: center;
 	background-color: rgba(0, 0, 0, 0.85);
 	height: 100%;
-	width: 40%; /* largeur de 80% de la page */
+	width: 1024px; /*40% de 2560px*/
 	margin: 0 auto; /* centrage horizontal de l'élément */
 }
 
