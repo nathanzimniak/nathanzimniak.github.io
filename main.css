@@ -109,11 +109,11 @@ body {
 	background-color: rgba(0, 0, 0, 0.85);
 	width: 768px; /*30% de 2560px*/
 	margin: 0 auto;
-	margin-top: 200px;
 }
 	
 .footer-home p {
 	font-size: 12px;
+	margin-top: 200px;
 }
 	
 /*research*/
@@ -195,9 +195,9 @@ body {
 	background-color: rgba(0, 0, 0, 0.85);
 	width: 1024px; /*40% de 2560px*/
 	margin: 0 auto;
-	margin-top: 200px;
 }
 	
 .footer-research p {
 	font-size: 12px;
+	margin-top: 200px;
 }
