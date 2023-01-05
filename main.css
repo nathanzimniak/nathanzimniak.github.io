@@ -43,7 +43,7 @@ body {
 	color: #D2674E;
 }
 
-.profile {
+.home {
 	display: flex;
 	flex-direction: column; /* changer la direction de l'alignement des éléments en colonne */
 	align-items: center;
@@ -53,14 +53,14 @@ body {
 	margin: 0 auto; /* centrage horizontal de l'élément */
 }
 
-.profile-rounded-img {
+.home-rounded-img {
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
 	margin-bottom: 60px; /* ajouter une marge en bas de l'image */
 }
 
-.profile p {
+.home p {
 	font-size: 16px;
 	line-height: 24px;
 	text-align: justify;
@@ -69,33 +69,33 @@ body {
 	color: white; /* couleur de texte blanche pour être lisible sur l'arrière-plan sombre */
 }
 
-.profile h1 {
+.home h1 {
 	font-size: 28px; /* augmenter la taille de la police */
 	font-weight: bold; /* mettre en gras */
 	margin: 0; /* enlever les marges */
 	color: white; /* couleur de texte blanche pour être lisible sur l'arrière-plan sombre */
 }
 	
-.profile h2 {
+.home h2 {
 	font-size: 22px;
 	font-weight: normal;
 	margin: 0;
 	color: white;
 }
 	
-.profile h3 {
+.home h3 {
 	font-size: 16px;
 	font-weight: normal;
 	margin: 0;
 	color: white;
 }
 
-.profile .logos {
+.home .logos {
 	display: flex;
 	justify-content: center;
 }
     
-.profile .logos img {
+.home .logos img {
 	border-radius: 0;
 	width: 30px;
 	height: 30px;
