@@ -48,7 +48,7 @@ body {
 	flex-direction: column; /* changer la direction de l'alignement des éléments en colonne */
 	align-items: center;
 	background-color: rgba(0, 0, 0, 0.85);
-	height: auto;
+	height: 100%;
 	width: 768px; /*30% de 2560px*/
 	margin: 0 auto; /* centrage horizontal de l'élément */
 }
@@ -146,7 +146,7 @@ body {
 	flex-direction: column; /* changer la direction de l'alignement des éléments en colonne */
 	align-items: center;
 	background-color: rgba(0, 0, 0, 0.85);
-	height: auto;
+	height: 130%;
 	width: 1024px; /*40% de 2560px*/
 	margin: 0 auto; /* centrage horizontal de l'élément */
 }
@@ -195,10 +195,9 @@ body {
 	background-color: rgba(0, 0, 0, 0.85);
 	width: 1024px; /*40% de 2560px*/
 	margin: 0 auto;
-	clear: both
 }
 	
 .footer-research p {
 	font-size: 12px;
-	margin-top: 100px;
+	/*margin-top: 100px;*/
 }
