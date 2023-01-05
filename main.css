@@ -105,16 +105,15 @@ body {
 .footer-home {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	background-color: rgba(0, 0, 0, 0.85);
-	height: 35%;
 	width: 768px; /*30% de 2560px*/
 	margin: 0 auto;
+	/*height: 35%;*/
 }
 	
 .footer-home p {
 	font-size: 12px;
-	margin-top: 200px;
+	/*margin-top: 200px;*/
 }
 	
 /*research*/
@@ -201,5 +200,5 @@ body {
 	
 .footer-research p {
 	font-size: 12px;
-	margin-top: 200px;
+	/*margin-top: 200px;*/
 }
