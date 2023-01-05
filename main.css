@@ -1,0 +1,203 @@
+
+/*fonts*/
+@font-face {
+    font-family: 'Montserrat'; /*a name to be used later*/
+    src: url('assets/fonts/Montserrat-master/fonts/ttf/Montserrat-Regular.ttf'); /*URL to font*/
+}
+
+/*corps*/
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	background-image: url('https://i.imgur.com/Tnxqra0.png');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: white;
+}
+
+/*home*/
+.nav-home {
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	height: 100px;
+	position: relative;
+	width: 30%; /* largeur de 80% de la page */
+	margin: 0 auto; /* centrage horizontal de l'élément */
+	background-color: rgba(0, 0, 0, 0.85);
+}
+
+.nav-home a {
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	margin: 0 25px;
+	font-weight: bold;
+}
+	
+.nav-home a:hover {
+	color: #D2674E;
+}
+
+.profile {
+	display: flex;
+	flex-direction: column; /* changer la direction de l'alignement des éléments en colonne */
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.85);
+	height: 100%;
+	width: 30%; /* largeur de 80% de la page */
+	margin: 0 auto; /* centrage horizontal de l'élément */
+}
+
+.profile-rounded-img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-bottom: 60px; /* ajouter une marge en bas de l'image */
+}
+
+.profile p {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: justify;
+	width: 40%;
+	font-weight: normal;
+	color: white; /* couleur de texte blanche pour être lisible sur l'arrière-plan sombre */
+}
+
+.profile h1 {
+	font-size: 28px; /* augmenter la taille de la police */
+	font-weight: bold; /* mettre en gras */
+	margin: 0; /* enlever les marges */
+	color: white; /* couleur de texte blanche pour être lisible sur l'arrière-plan sombre */
+}
+	
+.profile h2 {
+	font-size: 22px;
+	font-weight: normal;
+	margin: 0;
+	color: white;
+}
+	
+.profile h3 {
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0;
+	color: white;
+}
+
+.profile .logos {
+	display: flex;
+	justify-content: center;
+}
+    
+.profile .logos img {
+	border-radius: 0;
+	width: 30px;
+	height: 30px;
+	margin: 20px; /* ajouter une marge en bas de l'image */
+	margin-top: 100px; /* ajouter une marge en bas de l'image */
+}
+
+.footer-home {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.85);
+	width: 30%;
+	margin: 0 auto;
+}
+	
+.footer-home p {
+	font-size: 12px;
+}
+	
+/*research*/
+.nav-research {
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	height: 100px;
+	position: relative;
+	width: 40%; /* largeur de 80% de la page */
+	margin: 0 auto; /* centrage horizontal de l'élément */
+	background-color: rgba(0, 0, 0, 0.85);
+}
+
+.nav-research a {
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	margin: 0 25px;
+	font-weight: bold;
+}
+	
+.nav-research a:hover {
+	color: #D2674E;
+}
+
+.research {
+	display: flex;
+	flex-direction: column; /* changer la direction de l'alignement des éléments en colonne */
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.85);
+	height: 100%;
+	width: 40%; /* largeur de 80% de la page */
+	margin: 0 auto; /* centrage horizontal de l'élément */
+}
+
+.research img {
+	height: 200px;
+}
+
+.research p {
+	font-size: 14px;
+	line-height: 24px;
+	text-align: justify;
+	width: 80%;
+	font-weight: normal;
+	color: white; /* couleur de texte blanche pour être lisible sur l'arrière-plan sombre */
+}
+	
+.research figcaption {
+	display: flex;
+	margin: auto;
+	margin-top: 10px; /* ajouter une marge en bas de l'image */
+	margin-bottom: 20px; /* ajouter une marge en bas de l'image */
+	line-height: 18px;
+	font-size: 12px;
+	font-style: italic;
+	max-width: 70%; /* Largeur maximale de 50% de la figure */
+}
+
+.research h1 {
+	font-size: 28px; /* augmenter la taille de la police */
+	font-weight: bold; /* mettre en gras */
+	margin: 0; /* enlever les marges */
+	color: white; /* couleur de texte blanche pour être lisible sur l'arrière-plan sombre */
+}
+	
+.research h2 {
+	font-size: 17px;
+	font-weight: normal;
+	margin: 0;
+	color: white;
+}
+	
+.footer-research {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.85);
+	width: 40%;
+	margin: 0 auto;
+}
+	
+.footer-research p {
+	font-size: 12px;
+}
