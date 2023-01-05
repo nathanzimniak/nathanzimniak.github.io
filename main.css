@@ -2,7 +2,7 @@
 /*fonts*/
 @font-face {
     font-family: 'Montserrat'; /*a name to be used later*/
-    src: url('assets/fonts/Montserrat-master/fonts/ttf/Montserrat-Regular.ttf'); /*URL to font*/
+    src: url('assets/fonts/Montserrat-Regular.ttf'); /*URL to font*/
 }
 
 /*corps*/
